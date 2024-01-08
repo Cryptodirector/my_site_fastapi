@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+
+{% block title %}Главная{% endblock %}
+
+{% block content %}
+    <div class="main-container">
+        <div class="mini-container">
+            <h1>MOONBOT</h1>
+            <div class="p-container">
+                <p>Полноценный пассивный доход с<br>
+                    помощью криптовалютных ботов<br>
+                    под управлением команды опытных<br>
+                    трейдеров-аналитиков
+                </p>
+            </div>
+        </div>
+        <div class="help-container">
+            <h1>Как в 3 простых шага начать торговлю<br>
+                с помощью нашего бота:</h1>
+        </div>
+        <ul class="ul-list">
+            <li>Зарегистрируйтесь на moon-bot.ru</li>
+            <li>Создайте api-ключ на бирже и добавьте его на moon-bot.ru</li>
+            <li>Запустите</li>
+            {% if cookie %}
+                <form class="button" action="{{ url_for('app') }}">
+                    <button type="submit">Начать</button>
+                </form>
+            {% else %}
+                <form class="button" action="{{ url_for('registration') }}">
+                    <button type="submit">Начать</button>
+                </form>
+            {% endif %}
+        </ul>
+
+    </div>
+{% endblock %}

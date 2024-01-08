@@ -1,0 +1,175 @@
+html {
+    background-image: url(img/3d-render-of-a-modern-network-communications-background.jpg);
+    background-size: 100% 100% ;
+    background-position: center center;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+
+
+
+body {
+
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+
+
+header {
+    opacity: 0.7;
+    background-color: #9ACD32;
+    color: white;
+    padding: 1em 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    max-width: 50px;
+    margin-right: 10px;
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.logo h1 {
+    margin-left: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ffcc00; /* Цвет при наведении курсора */
+}
+
+
+.container {
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+label {
+    padding: 10px;
+}
+
+.mini-container h1 {
+    font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+    margin-left: 100px;
+    color: white;
+    font-size: 100px;
+}
+
+.p-container {
+    margin-left: 100px;
+
+}
+
+.p-container p {
+    font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+    color: #FFFF00;
+    font-size: 20px;
+}
+
+.help-container h1 {
+    font-size: 30px;
+    color: white;
+}
+
+.help-container {
+    max-width: 1170px;
+    margin-left: 500px;
+    margin-right: 100px;
+}
+
+.ul-list li {
+    font-size: 20px;
+    color: white;
+}
+
+.ul-list {
+    max-width: 1170px;
+    margin-left: 500px;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+
+.ul-list button {
+    background-color: #FFFF00;
+    font-size: 40px;
+    margin-top: 30px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 20px;
+}
+
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: white;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.registration-form button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.registration-form button:hover {
+    background-color: #45a049;
+}
